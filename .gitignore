@@ -1,0 +1,13 @@
+*.bin
+*.hex
+*.elf
+*.lst
+*.map
+*.bin*
+ppi_example.cpp
+*.ipch
+*.dfu
+*.o
+*.d
+
+.vscode
