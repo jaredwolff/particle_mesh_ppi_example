@@ -1,13 +1,22 @@
 # ppi_example
 
-A Particle project named ppi_example
+![Intro image](images/PPI-e9a36e09-b4fc-4aa0-95a8-33fb3a7153f2.png)
+
+This is the example code from the [blog post](https://www.jaredwolff.com/how-to-real-time-processing-on-particle-mesh/) on www.jaredwolff.com.
+
+If you've been struggling to get accurate timing out of your Particle Mesh device, this code is for you. It allows you to generate signals and do real-time processing without the use of the processor. (the bottleneck in most embedded applications!)
+
+Check it out and let me know what you think. hello@jaredwolff.com
+
+--
+
 
 ## Welcome to your project!
 
 Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for ppi_example.
 
-#### ```/src``` folder:  
-This is the source folder that contains the firmware files for your project. It should *not* be renamed. 
+#### ```/src``` folder:
+This is the source folder that contains the firmware files for your project. It should *not* be renamed.
 Anything that is in this folder when you compile your project will be sent to our compile service and compiled into a firmware binary for the Particle device that you have targeted.
 
 If your application contains multiple files, they should all be included in the `src` folder. If your firmware depends on Particle libraries, those dependencies are specified in the `project.properties` file referenced below.
@@ -15,7 +24,7 @@ If your application contains multiple files, they should all be included in the 
 #### ```.ino``` file:
 This file is the firmware that will run as the primary application on your Particle device. It contains a `setup()` and `loop()` function, and can be written in Wiring or C/C++. For more information about using the Particle firmware API to create firmware for your Particle device, refer to the [Firmware Reference](https://docs.particle.io/reference/firmware/) section of the Particle documentation.
 
-#### ```project.properties``` file:  
+#### ```project.properties``` file:
 This is the file that specifies the name and version number of the libraries that your project depends on. Dependencies are added automatically to your `project.properties` file when you add a library to a project using the `particle library add` command in the CLI or add a library in the Desktop IDE.
 
 ## Adding additional files to your project
